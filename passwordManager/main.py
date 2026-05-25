@@ -13,7 +13,7 @@ def Master_login():
         print("wrong credentials")
 
 def add():
-    vault = {}
+
     website = input("please enter the name of the website : ")
     username = input("please enter the username : ")
     password = input("please enter the password : ")
@@ -54,7 +54,7 @@ def view():
                 print("sorry not such credentials found")
         else:
             print("YOUR VAULT IS EMPTY PLEASE ADD SOME DATA FIRST")
-    file.close()
+
 
 
 def delete():
